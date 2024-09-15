@@ -3,10 +3,10 @@ const connect = mongoose.connect("mongodb://localhost:27017/blog")
 
 //check database connected or not
 connect.then(()=>{
-    console.log("Databas connected succesfuly")
+    console.log("Database connected succesfuly")
 })
 .catch(()=>{
-    console.log("Databas cannot be")
+    console.log("Database cannot be connected")
 })
 
 //Create a schema
